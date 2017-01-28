@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+      <script>
+var i,j,k;
+ 
+for (i = 0; i<=2; i++){
+    if(i==0 || i==2){
+        for(j = 0; j<=5; j++){
+           document.writeln("*"); 
+        }
+    }
+    else {
+        for (k = 0; k<=10; k++){
+            if(k==0 || k==10){
+               document.writeln("*"); 
+            } else if(k==1){
+               document.writeln("A");
+            } else if(k==2){
+               document.writeln("l");
+            } else if(k==3){
+               document.writeln("m");
+            } else if(k==4){
+               document.writeln("a");
+            } else if(k==5){
+            document.writeln("s");
+            }
+    }  
+}
+document.writeln("</br>");
+}
+</script>
+    </body>
+</html>
