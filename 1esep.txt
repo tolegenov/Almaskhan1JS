@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>Zhuldizsha</title>
+<body>
+<script language="Javascript">
+var x,y;
+for(x=0;x<7;x++){
+for(y=0;y<=x;y=y+1){
+	document.write("*");
+	}
+}
+</script>
+</body>
+</html>
